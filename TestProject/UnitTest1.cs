@@ -9,5 +9,15 @@ namespace TestProject
         {
             Assert.IsTrue(Enum.GetNames(typeof(Project.Members)).Length == 4);
         }
+        [TestMethod]
+        public void TestProjectMemberIds()
+        {
+             Assert.IsTrue((int)Project.Members.Kla == 1);
+             Assert.IsTrue((int)Project.Members.Phet == 2);
+             Assert.IsTrue((int)Project.Members.Mag == 3);
+        
+
+
+        }
     }
 }
