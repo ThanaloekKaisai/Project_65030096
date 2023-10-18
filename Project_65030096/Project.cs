@@ -12,7 +12,8 @@ namespace Project_65030096
         {
             Kla = 1,
             Phet = 2,
-            Mag =3,
+            Mag = 3,
+            Beck = 4,
          } 
     }
 }
